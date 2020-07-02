@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tech.riseofdevelopers.stars">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="tech.riseofdevelopers.stars"
+    android:versionCode="5"
+    android:versionName="1.25"
+    android:minSdkVersion="22"
+    android:targetSdkVersion="29"
+    android:installLocation="auto" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
+        android:debuggable="false"
         android:label="@string/app_name"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="HardcodedDebugMode">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1001933083418910~8916806263"/>
+
         <activity android:name=".MainActivity"
             android:screenOrientation="portrait">
         </activity>

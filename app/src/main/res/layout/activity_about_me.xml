@@ -21,57 +21,59 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_marginTop="16dp"
         android:id="@+id/imageView4"
-        android:layout_width="130dp"
-        android:layout_height="185dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:srcCompat="@drawable/photo" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:fontFamily="@font/msemibold"
-        android:text="MOCHAMMAD TEDY FAZRIN"
-        android:textColor="@color/colorAccent"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:srcCompat="@drawable/rod" />
 
     <View
         android:id="@+id/view2"
+        android:layout_marginTop="20dp"
         android:layout_width="220dp"
         android:layout_height="1dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
         android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/email"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/mextralight"
-        android:text="tedy@riseofdevelopers.tech"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button_primary"
+        android:fontFamily="@font/mmedium"
+        android:text="Email"
+        android:textAllCaps="false"
         android:textColor="@color/colorAccent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/website"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <Button
+        android:id="@+id/website"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="80dp"
+        android:text="Website"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/button_primary"
+        android:fontFamily="@font/mmedium"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
 
     <Button
         android:id="@+id/back"
         android:layout_width="130dp"
         android:layout_height="41dp"
-        android:layout_marginBottom="53dp"
         android:background="@drawable/button_primary"
         android:drawableLeft="@drawable/arrow_start"
         android:fontFamily="@font/mmedium"
@@ -80,6 +82,26 @@
         android:textAllCaps="false"
         android:textColor="@color/colorAccent"
         android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/adView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-1001933083418910/6183171026"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-1001933083418910/8681034366"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

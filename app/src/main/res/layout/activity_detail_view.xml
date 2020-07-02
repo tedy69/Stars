@@ -7,6 +7,26 @@
     android:background="@color/colorPrimary"
     tools:context=".DetailStarsActivity">
 
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-1001933083418910/6183171026"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-1001933083418910/9610972655"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetail" />
+
     <ImageView
         android:id="@+id/imgDetail"
         android:layout_width="match_parent"
@@ -59,7 +79,6 @@
         android:layout_width="130dp"
         android:layout_height="41dp"
         android:layout_marginStart="24dp"
-        android:layout_marginBottom="24dp"
         android:background="@drawable/button"
         android:drawableLeft="@drawable/arrow_start"
         android:fontFamily="@font/mmedium"
@@ -68,7 +87,7 @@
         android:textAllCaps="false"
         android:textColor="@color/colorAccent"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

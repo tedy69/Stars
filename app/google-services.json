@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "262624550873",
+    "firebase_url": "https://stars-6969.firebaseio.com",
+    "project_id": "stars-6969",
+    "storage_bucket": "stars-6969.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262624550873:android:68c89aca838230a1c2c3c8",
+        "android_client_info": {
+          "package_name": "tech.riseofdevelopers.stars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262624550873-1kiaoljdp0bn9qp2pjfrqg7gvockgc25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeXa-ljOQNcPMPC7eLCFzAPvquDAUzCa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262624550873-1kiaoljdp0bn9qp2pjfrqg7gvockgc25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1001933083418910~8916806263"
+    }
+  ],
+  "configuration_version": "1"
+}

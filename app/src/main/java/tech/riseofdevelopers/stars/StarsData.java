@@ -27,7 +27,8 @@ public class StarsData {
             "Pollux",
             "Regulus",
             "Procyon",
-            "Alioth"
+            "Alioth",
+            "Sigma Draconis"
 
     };
 
@@ -56,7 +57,8 @@ public class StarsData {
             "adalah bintang raksasa jingga (orange giant) yang berada pada jarak 34 tahun cahaya dari Bumi, berada di rasi Gemini. Pollux termasuk bintang tercerah di langit malam, juga tercerah di rasi, jika dibandingkan dengan \"kembarannya\" (α Gem). Pada tahun 2006, Pollux dikonfirmasi memiliki planet.",
             "adalah bintang paling terang di rasi Leo dan termasuk bintang yang cemerlang di langit malam. Bintang ini berada pada jarak 77.5 tahun cahaya dari Bumi. Regulus merupakan sistem multi bintang yang terdiri dari empat bintang yang tergabung dalam dua pasang bintang. Regulus A terdiri dari bintang biru keputihan dan pasangannya yang belum diamati, berkemungkinan adalah bintang katai putih (white dwarf). Di depan Regulus A terdapat pasangannya yang terdiri dari Regulus B dan Regulus C, yang merupakan bintang redup.\n",
             "Procyon (pengucapan bahasa Inggris: ['proʊsɪən]) (α CMi / α Canis Minoris / Alpha Canis Minoris) adalah bintang paling terang di rasi Canis Minor. Dengan mata telanjang tampak sebagai bintang tunggal dengan magnitudo tampak 0,34. Procyon sebenarnya adalah sebuah sistem bintang ganda yang terdiri dari sebuah bintang deret utama dengan kelas spektrum F5 IV-V, dinamai Procyon A, dan sebuah katai putih dengan kelas spektrum DA yang dinamai Procyon B. Pada jarak 3,5 parsec atau 11,41 tahun cahaya, Procyon menjadi salah satu bintang tetangga Matahari. Tetangga terdekat Procyon adalah Bintang Luyten, pada jarak 0,34 pc atau 1,11 tahun cahaya.",
-            ""
+            "",
+            "Sigma Draconis adalah bintang yang berada pada jarak 18.8 tahun cahaya dari Bumi, di rasi bintang Draco. Bintang ini memiliki magnitudo 4.67. Bintang ini tergolong bintang katai kelas K0."
     };
 
 
@@ -83,7 +85,8 @@ public class StarsData {
             R.drawable.pollux,
             R.drawable.regulus,
             R.drawable.procyon,
-            R.drawable.alioth
+            R.drawable.alioth,
+            R.drawable.sigma_draconis
 
 
     };
